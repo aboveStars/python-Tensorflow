@@ -5,8 +5,19 @@
 # 6 12 15
 def GCD_Calculator(*args):
     numbersList = list(args)
-    numbersList.sort(reverse=True)
-    return numbersList
+    minNumber = min(numbersList)
+    currentResult = minNumber
+
+    return[n%currentResult for n in numbersList] == 0
+    
+
+    
+
+       
+
+
+
+    
 
 print(GCD_Calculator(6,15,12))
 
