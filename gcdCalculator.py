@@ -1,14 +1,15 @@
 print(
-    """
-    In This Example I will make a GCD Calculator.
-    This calculator calculate GCD of numbers you give.
+"""
+    In This Example I made a GCD Calculator.
+This calculator calculate GCD of numbers you give.
     No Limit For Numbers
-    Enjoy !
-    """
+Enjoy!
+
+"""
 )
 
 
-def GCD_Calculator(*args):
+def GCD_Calculator(args):
     dividers = list(range(min(args)+1))
     dividers.remove(0)
     dividers.sort(reverse=True)
@@ -23,5 +24,15 @@ def GCD_Calculator(*args):
             print(f"Also our bad-result-list = {resultList}")
 
 
+givenArgs = []
+indexOfInput = 1
 
-print(GCD_Calculator(5,10,15))
+while True:
+    x = input(f"Give {indexOfInput}. Number: ")
+    if x:
+        givenArgs.append(int(x))
+        indexOfInput += 1
+    else:
+        break
+
+print(GCD_Calculator(givenArgs))
