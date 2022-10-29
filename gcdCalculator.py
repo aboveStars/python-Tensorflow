@@ -2,7 +2,7 @@ print(
 """
     In This Example I made a GCD Calculator.
 This calculator calculate GCD of numbers you give.
-    No Limit For Numbers
+    No Limit For Numbers If You Want To Stop Just Enter
 Enjoy!
 
 """
@@ -18,9 +18,9 @@ def GCD_Calculator(args):
         resultList = [n%divider for n in args]
 
         if resultList.count(0) == len(resultList):
-            return f"GCD is : {divider}"
+            return f"\nGCD is : {divider}"
         else:
-            print(f"Tried Number: {divider}")
+            print(f"\nTried Number: {divider}")
             print(f"Also our bad-result-list = {resultList}")
 
 
