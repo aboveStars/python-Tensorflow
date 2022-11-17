@@ -1,4 +1,9 @@
-# This repository contains my lessons and small projects about a Python library, Tensorflow. 
+# Data Analysis and Neural Learning with Python
+
+> This repository contains my lessons and small projects about a Python library, Tensorflow. 
+
 >Tensorflow is being used for data analysis and neural learning for given datasets in this repo.
 
 >For lessons, I folowed BTK-Akademi's Python-Tensorflow course which was conducted by Atıl Samancıoğlu.
+
+> In Lessons, we mostly used Jupyter Notebook.
